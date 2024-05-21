@@ -19,7 +19,9 @@ Spring 2024
 
 No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
 
-Our main question is how do individual player statistics impact team performance? This question is important because it helps us understand the relationship individual performance has with team success. Accordingly, we plan to create a detailed analysis on each player statistic, by comparing and visualizing these stats, we gain insights into player performance and team dynamics.
+Our main question is how do individual player statistics impact team performance? This question is important because it helps us understand the relationship individual performance
+has with team success. Accordingly, we plan to create a detailed analysis on each player statistic, by comparing and visualizing these stats, we gain insights into player performance
+and team dynamics.
 
 ### Keywords
 
@@ -30,7 +32,9 @@ Individual statistics/performance, Player analysis, and Team success
 
 Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
 
-In the world of professional basketball, knowing statistics is everything when it comes to team success. From the players themselves to the coaches and even other opposing teams information on player performance is crucial to player improvement and for teams making successful game plans and strategies for their success. This project explores the relationship between  individual player metrics and team outcomes. By analyzing data from both the NBA and WNBA we aim to answer these important questions:
+In the world of professional basketball, knowing statistics is everything when it comes to team success. From the players themselves to the coaches and even other opposing teams 
+information on player performance is crucial to player improvement and for teams making successful game plans and strategies for their success. This project explores the relationship
+between  individual player metrics and team outcomes. By analyzing data from both the NBA and WNBA we aim to answer these important questions:
 
 1. How does individual performance affect team success? 
 
@@ -56,7 +60,13 @@ This question searches for a correlation between how well a teams free throw sho
 
 Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
 
-In this project, we delve into the world of professional basketball, analyzing player statistics from both the NBA and WNBA. Our goal is to uncover insights that impact team performance, inform coaching strategies, and guide decision-making. The first article dives into the multiple ways the NBA is currently leveraging data analytics to improve performance. It touches on how teams are using player performance analysis data to optimize players' overall performance and create game strategies. They further explain how teams also used to scout other players for both implementing defensive game strategies, but also scouting for possible player acquisitions. The second article explores the most important stat in basketball and how coaches use this to optimize their player's abilities and the team's success. The article states that efficiency is the most important statistic in basketball, they explain how efficiency statistics are calculated and what the meaning behind the numbers is. The third article carries out a statistical comparison between the NBA and WNBA. It delves into the statistical differences between the two leagues in the form of shot distributions, trajectories, and shooting percentages. It also includes multiple interactive charts and graphs to visualize the comparisons.
+In this project, we delve into the world of professional basketball, analyzing player statistics from both the NBA and WNBA. Our goal is to uncover insights that impact team performance,
+inform coaching strategies, and guide decision-making. The first article dives into the multiple ways the NBA is currently leveraging data analytics to improve performance. It touches on
+how teams are using player performance analysis data to optimize players' overall performance and create game strategies. They further explain how teams also used to scout other players 
+for both implementing defensive game strategies, but also scouting for possible player acquisitions. The second article explores the most important stat in basketball and how coaches use
+this to optimize their player's abilities and the team's success. The article states that efficiency is the most important statistic in basketball, they explain how efficiency statistics 
+are calculated and what the meaning behind the numbers is. The third article carries out a statistical comparison between the NBA and WNBA. It delves into the statistical differences 
+between the two leagues in the form of shot distributions, trajectories, and shooting percentages. It also includes multiple interactive charts and graphs to visualize the comparisons.
 
 **Works Cited**
 
