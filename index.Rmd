@@ -23,14 +23,15 @@ Our main question is how do individual player statistics impact team performance
 has with team success. Accordingly, we plan to create a detailed analysis on each player statistic, by comparing and visualizing these stats, we gain insights into player performance
 and team dynamics.
 
+
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+
 Individual statistics/performance, Player analysis, and Team success
+
+
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
 
 In the world of professional basketball, knowing statistics is everything when it comes to team success. From the players themselves to the coaches and even other opposing teams 
 information on player performance is crucial to player improvement and for teams making successful game plans and strategies for their success. This project explores the relationship
@@ -53,9 +54,9 @@ This question explores the data for both leagues and searches for any differenti
 
 This question searches for a correlation between how well a teams free throw shooting contributes to a successful season.
 
+
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
 
 In this project, we delve into the world of professional basketball, analyzing player statistics from both the NBA and WNBA. Our goal is to uncover insights that impact team performance,
 inform coaching strategies, and guide decision-making. The first article dives into the multiple ways the NBA is currently leveraging data analytics to improve performance. It touches on
@@ -74,16 +75,8 @@ comparisons.
 
 3. Zoe Vernon, "Comparing the NBA and WNBA", Zoevernon.github.io, Aug 30, 2020, <https://zoevernon.github.io/posts/2020/08/nba-wnba-comparison/#:~:text=There%20are%20a%20number%20of,overall%20trends%20of%20those%20statistics.>
 
-### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+### The Dataset
 
 
 The dataset used for this project comes from a combination of two data sets from the basketball reference website, one is the 2023-2024 season of the [NBA](https://www.basketball-reference.com/leagues/NBA_2023_per_game.html) and the other is the 2023 season of the [WNBA](https://www.basketball-reference.com/wnba/years/2023_per_game.html). The dataset was created by Sean Lahman and then used and modified by Basketball Reference. The data itself was
@@ -94,7 +87,6 @@ this data is that not all players have data in each category, which might result
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
 
 The findings of this project can have multiple implications for technologists, designers, and policymakers. The results of this analysis can be used by technologists to build different
 statistic-driven tools to help create in-game strategies. Technologists can also use it to improve existing player-tracking technologies for both the NBA and WNBA. It can be used to
@@ -107,8 +99,7 @@ promotes fair and equitable changes in policy-making.
 
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
-Working with sports data there are several potential challenges and limitations.
+
 
 Working with sports data there are several potential challenges and limitations. A Player’s performance can be impacted by external factors such as injuries, playing time, and other
 extenuating circumstances. Unfortunately, there is not a way to avoid such  nuance interactions of external factors. Another challenge is the provided statistical categories is limited
@@ -116,35 +107,47 @@ and may not cover all aspects of a player’s performance. Furthermore, comparin
 leagues have different rules, playing times, and physical demands. So a direct comparison might not take consideration the differences between the two leagues. Lastly, the data set is
 solely from the 2023 WNBA season and the 2023-24 NBA season. For this reason this dataset may well not reflect a player’s true potential as it is limited to only one season. Addressing
 and acknowledging these challenges and limitations will further strengthen the validity and reliability of this analysis.
+
 ### Summary Information
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
 ### Table
 
-Include a table of aggregate information
-
-Describe why you included the table and what information it reveals
+```{r}
+library("plotly")
+library("readr")
+setwd("C:\\Users\\Binyam\\Downloads")
+stats <- read.csv("stats_dataset.csv")
+stats <- stats %>% replace(is.na(.), 0)
+```
+```{r, layout="l-body-outset"}
+library(rmarkdown)
+paged_table(stats)
+```
 
 ### Chart 1
 
-Include a chart
 
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+``````{r, echo = FALSE, code = readLines("chart1.R")}
 ```
+
+I chose this graph to compare the different positions in both leagues, and showcase the most efficient shooting position.
+
 
 ### Chart 2
 
-Include a chart
 
-Describe why you chose this chart and what information it reveals
+``````{r, echo = FALSE, code = readLines("chart2.R")}
+```
+
+I chose this graph to showcase the average stats in each category from the combined database. This gives the audience an understanding of the skill level of the players in both the players.
+
 
 ### Chart 3
 
-Include a chart
 
-Describe why you chose this chart and what information it reveals
+``````{r, echo = FALSE, code = readLines("chart3.R")}
+```
+
+I chose this graph to provide a comparison in stats between the NBA and the WNBA.

@@ -5,9 +5,10 @@ library("readr")
 setwd("C:\\Users\\Binyam\\Downloads")
 stats <- read.csv("stats_dataset.csv")
 stats <- stats %>% replace(is.na(.), 0)
-summary(stats)
 fg <- stats %>% 
   select(3, 9)
 FG <- list(fg$Pos)
 y <- aggregate(FG.~Pos, data = fg, FUN=mean)
-barplot(y, xlab = "Positions", ylab = "FG%", main = "Field Goal Percentage by Position")
+#barplot(y, xlab = "Positions", ylab = "FG%", main = "Field Goal Percentage by Position")
+ggplot(y, aes(x=Pos, y=FG.,fill=Pos)) + geom_bar(stat="identity") + labs(x="Positions", y="FG%") + ggtitle("Field Goal Percentage by Position")
+
