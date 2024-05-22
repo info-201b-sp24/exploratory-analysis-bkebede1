@@ -5,7 +5,6 @@ library("readr")
 setwd("C:\\Users\\Binyam\\Downloads")
 stats <- read.csv("stats_dataset.csv")
 stats <- stats %>% replace(is.na(.), 0)
-summary(stats)
 fg <- stats %>% 
   select(3, 9)
 FG <- list(fg$Pos)
