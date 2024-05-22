@@ -44,15 +44,12 @@ This question investigates the statistics of player in different categories like
 
 This question looks at each position, comparing them to each other to find the most impactful position.
 
-3. Does better defense or offense result in a more successful season?
 
-This question analyzes defensive and offensive stats to find out if either good defense or offense leads to a better season.
-
-4. Are there statistical difference between the NBA and WNBA players?
+3. Are there statistical difference between the NBA and WNBA players?
 
 This question explores the data for both leagues and searches for any differential trends that could be based on gender or other potential factors.
 
-5. Is there a correlation between free throws and winning?
+4. Is there a correlation between a high free throw percentage of a team and it's success?
 
 This question searches for a correlation between how well a teams free throw shooting contributes to a successful season.
 
@@ -62,11 +59,12 @@ Describe your topic and related work in this space. You must include 3 citations
 
 In this project, we delve into the world of professional basketball, analyzing player statistics from both the NBA and WNBA. Our goal is to uncover insights that impact team performance,
 inform coaching strategies, and guide decision-making. The first article dives into the multiple ways the NBA is currently leveraging data analytics to improve performance. It touches on
-how teams are using player performance analysis data to optimize players' overall performance and create game strategies. They further explain how teams also used to scout other players 
-for both implementing defensive game strategies, but also scouting for possible player acquisitions. The second article explores the most important stat in basketball and how coaches use
-this to optimize their player's abilities and the team's success. The article states that efficiency is the most important statistic in basketball, they explain how efficiency statistics 
-are calculated and what the meaning behind the numbers is. The third article carries out a statistical comparison between the NBA and WNBA. It delves into the statistical differences 
-between the two leagues in the form of shot distributions, trajectories, and shooting percentages. It also includes multiple interactive charts and graphs to visualize the comparisons.
+how teams are using player performance analysis data to optimize players' overall performance and create game strategies. They further explain how teams also used to scout other players
+for implementing defensive and offensive game strategies, but also for scouting possible player acquisitions. The second article explores the most important stat in basketball and how
+coaches use this to optimize their player's abilities and the team's success. The article states that efficiency is the most important statistic in basketball, they explain how efficiency
+statistics are calculated and what the meaning behind the numbers is. The third article carries out a statistical comparison between the NBA and WNBA. It delves into the statistical
+differences between the two leagues in the form of shot distributions, trajectories, and shooting percentages. It also includes multiple interactive charts and graphs to visualize the
+comparisons.
 
 **Works Cited**
 
@@ -87,13 +85,37 @@ How many features (columns) are in the data?
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 What are possible limitations or problems with this data?   (at least 200 words)
 
+
+The dataset used for this project comes from a combination of two data sets from the basketball reference website, one is the 2023-2024 season of the [NBA](https://www.basketball-reference.com/leagues/NBA_2023_per_game.html) and the other is the 2023 season of the [WNBA](https://www.basketball-reference.com/wnba/years/2023_per_game.html). The dataset was created by Sean Lahman and then used and modified by Basketball Reference. The data itself was
+gathered by SportRadar, which is the official statistics provider for the NBA. It was collected for the NBA to provide both the teams and media platforms to provide real-time data to the
+fans watching the games. This data set consists of 26 observations (rows) and 912 features (columns). There shouldn’t be any ethical questions or questions of power about how the data
+was collected as it was collected using advanced technologies and reliable accomplished sports journalists, with no actual way to interfere with the data itself. A possible limitation of
+this data is that not all players have data in each category, which might result in skewing data in certain directions. 
+
 ### Implications
 
 Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
 
+The findings of this project can have multiple implications for technologists, designers, and policymakers. The results of this analysis can be used by technologists to build different
+statistic-driven tools to help create in-game strategies. Technologists can also use it to improve existing player-tracking technologies for both the NBA and WNBA. It can be used to
+enhance these technologies by making use of the analysis results to capture more precise data. Graphic designers can create different visualizations of the player stats to be used for
+broadcasting, player comparison tools, or other fan-related experiences. Policymakers can use this analysis to address current issues on player wage disparities between the NBA and WNBA.
+Understanding the high performance of these players in both leagues can help promote equitable compensation for everyone. Policymakers in these leagues can use this analysis to change
+the rules of the sport. A current issue discussed in the basketball world is how rules have changed a lot in recent years and as a result, it has brought conflict between players and
+referees. In summary, this analysis can bring forth a lot of change in the world of basketball. It empowers changes in decision-making for both optimization of players performance and
+promotes fair and equitable changes in policy-making.
+
+
 ### Limitations & Challenges
 What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+Working with sports data there are several potential challenges and limitations.
 
+Working with sports data there are several potential challenges and limitations. A Player’s performance can be impacted by external factors such as injuries, playing time, and other
+extenuating circumstances. Unfortunately, there is not a way to avoid such  nuance interactions of external factors. Another challenge is the provided statistical categories is limited
+and may not cover all aspects of a player’s performance. Furthermore, comparing the players across the NBA and WNBA needs careful consideration as they are two separate leagues. The
+leagues have different rules, playing times, and physical demands. So a direct comparison might not take consideration the differences between the two leagues. Lastly, the data set is
+solely from the 2023 WNBA season and the 2023-24 NBA season. For this reason this dataset may well not reflect a player’s true potential as it is limited to only one season. Addressing
+and acknowledging these challenges and limitations will further strengthen the validity and reliability of this analysis.
 ### Summary Information
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script

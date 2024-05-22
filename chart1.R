@@ -1,0 +1,13 @@
+library("dplyr")
+library("ggplot2")
+library("plotly")
+library("readr")
+setwd("C:\\Users\\Binyam\\Downloads")
+stats <- read.csv("stats_dataset.csv")
+stats <- stats %>% replace(is.na(.), 0)
+summary(stats)
+fg <- stats %>% 
+  select(3, 9)
+FG <- list(fg$Pos)
+y <- aggregate(FG.~Pos, data = fg, FUN=mean)
+barplot(y, xlab = "Positions", ylab = "FG%", main = "Field Goal Percentage by Position")
