@@ -110,20 +110,13 @@ and acknowledging these challenges and limitations will further strengthen the v
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+Included in the summary is the average statistics of the six most important categories in Baskeball. This includes points, assists, blocks, rebounds, and also turnovers. I calculated the average of all of the statistics from both the NBA and WNBA for each available position.
+
 
 ### Table
 
-```{r}
-library("plotly")
-library("readr")
-setwd("C:\\Users\\Binyam\\Downloads")
-stats <- read.csv("stats_dataset.csv")
-stats <- stats %>% replace(is.na(.), 0)
-```
-```{r, layout="l-body-outset"}
-library(rmarkdown)
-paged_table(stats)
+```{r, echo = FALSE, code = readLines("summary.R")}
+
 ```
 
 ### Chart 1
