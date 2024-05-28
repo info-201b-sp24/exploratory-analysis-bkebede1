@@ -1,6 +1,6 @@
 # Exploratory Analysis
 
-Link to your group's exploratory analysis here: https://github.com/info-201b-sp24/exploratory-analysis-bkebede1   
+Link to your group's exploratory analysis here: [https://github.com/info-201b-sp24/exploratory-analysis-bkebede1](https://info-201b-sp24.github.io/exploratory-analysis-bkebede1/)   
 (subsitute for your group's GitHub pages site)
 
 The purpose of this assignment is to provide you with the opportunity to explore your final project data and become familiar with collaborative coding techniques. By completing the assignment, you will demonstrate the following skills:
